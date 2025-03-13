@@ -59,6 +59,8 @@
   
   .container {
     padding: 16px;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   
   span.psw {
@@ -89,13 +91,7 @@
     z-index: 99;
   }
  body{
-  background-image: url(img1);
-  display: block;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
+  overflow-x: hidden;
   }
   .logo{
     font-size: 2em;
@@ -182,3 +178,4 @@
 .chatbot-popup{
   padding-top: 150px;
 }
+
